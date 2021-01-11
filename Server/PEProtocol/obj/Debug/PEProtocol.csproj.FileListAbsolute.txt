@@ -1,0 +1,11 @@
+D:\UnityProject\DarkGod\Server\PEProtocol\bin\Debug\PEProtocol.dll
+D:\UnityProject\DarkGod\Server\PEProtocol\bin\Debug\PEProtocol.pdb
+D:\UnityProject\DarkGod\Server\PEProtocol\bin\Debug\PESocket.dll
+D:\UnityProject\DarkGod\Server\PEProtocol\obj\Debug\PEProtocol.csproj.CoreCompileInputs.cache
+D:\UnityProject\DarkGod\Server\PEProtocol\obj\Debug\PEProtocol.dll
+D:\UnityProject\DarkGod\Server\PEProtocol\obj\Debug\PEProtocol.pdb
+D:\UnityProject\DarkGod\Server\Libs\PEProtocol.dll
+D:\UnityProject\DarkGod\Server\Libs\PEProtocol.pdb
+D:\UnityProject\DarkGod\Client\Assets\Scripts\Net\PEProtocol.dll
+D:\UnityProject\DarkGod\Client\Assets\Scripts\Net\PEProtocol.pdb
+D:\UnityProject\DarkGod\Server\PEProtocol\obj\Debug\PEProtocol.csprojResolveAssemblyReference.cache
