@@ -33,8 +33,7 @@ public class ResService : MonoBehaviour
     /// <param name="sceneName">场景名</param>
     /// <param name="loadedCallback">加载完成的回调</param>
     public void AsyncLoadScene(string sceneName, Action loadedCallback = null) {
-        //GameRoot.Instance.loadingWnd.SetWndState();
-        UIManager.Instance.PushPanel(UIPanelType.Loading);
+        GameRoot.Instance.loadingWnd.SetWndState();
         AsyncOperation opera = SceneManager.LoadSceneAsync(sceneName);
         processCallback = () => {
             float value = opera.progress;

@@ -11,7 +11,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class WindowRoot : BasePanel 
+public class WindowRoot : MonoBehaviour 
 {
 
     protected ResService resService = null;
@@ -54,9 +54,11 @@ public class WindowRoot : BasePanel
 
     //设置文本内容
     protected void SetText(Text txt, string content = "") {
+        if (txt == null) return;
         txt.text = content;
     }
     protected void SetText(Text txt, int num = 0) {
+        if (txt == null) return;
         txt.text = num + "";
     }
     protected void SetText(Transform trans, string content = "") {
