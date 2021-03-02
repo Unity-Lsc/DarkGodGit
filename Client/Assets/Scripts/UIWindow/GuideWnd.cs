@@ -78,6 +78,13 @@ public class GuideWnd : WindowRoot
         audioService.PlayUIAudio(Constants.AudioUIClickBtn);
         index += 1;
         if(index == dialogArr.Length) {
+            GameMsg msg = new GameMsg {
+                cmd = (int)CMD.ReqGuide,
+                reqGuide = new ReqGuide {
+                    guideId = curTaskData.ID,
+                }
+            };
+            netService.SendMsg(msg);
             SetWndState(false);
             return;
         }

@@ -270,12 +270,6 @@ public class ResService : MonoBehaviour
                         case "actID":
                             guideCfg.actID = int.Parse(item.InnerText);
                             break;
-                        case "coin":
-                            guideCfg.coin = int.Parse(item.InnerText);
-                            break;
-                        case "exp":
-                            guideCfg.exp = int.Parse(item.InnerText);
-                            break;
                     }
                 }
                 guideCfgDataDict.Add(ID, guideCfg);
